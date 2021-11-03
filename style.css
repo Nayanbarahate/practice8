@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-image: url("./main.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-left: 2%;
+  }
+.container {
+    display: flex;
+    width: 70%;
+  }
+.but {
+    color: white;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+.logo1 {
+    margin: 2%;
+  }
+.fa-bars {
+    font-size: 27px;
+  }
+
+button {
+    font-size: 110%;
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+.home {
+    margin-left: 88%;
+  }
+
+  .lef {
+    margin-left: 3%;
+    margin-top: 8%;
+    width: 50%;
+  }
+h1 {
+    font-size: 110px;
+  }
+.para {
+    font-size: 24px;
+  }
+.boxes {
+    display: flex;
+  }
+.middle {
+    display: flex;
+    height: 700px;
+    box-sizing: border-box;
+  }
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 40%;
+    height: 84%;
+    margin-top: 2%;
+    row-gap: 40px;
+  }
+.box {
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    width: 80%;
+    padding: 17px;
+  }
+.card1 {
+    background-image: url("./photo1.jpeg");
+  }
+.card2 {
+    background-image: url("./photo2.jpeg");
+  }
+.card3 {
+    background-image: url("./photo3.jpeg");
+  }
+.card4 {
+    background-image: url("./photo4.jpeg");
+  }
+.exp {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 125px;
+    width: 200px;
+    color: black;
+    background-color: white;
+  }
+.explore {
+    margin-left: 58px;
+    color: black;
+  }
+.para {
+    font-size: 90%;
+  }
+@media (max-width: 800px) {
+    body {
+      background-repeat: repeat-y;
+    }
+    .container {
+      margin-right: auto;
+      width: 100%;
+    }
+    .home {
+      margin-left: 30%;
+    }
+    .logo1 {
+      display: inline;
+    }
+    .middle {
+      display: block;
+      margin-left: 25%;
+      margin-right: auto;
+    }
+    .lef {
+      display: block;
+    }
+    .boxes {
+      display: block;
+    }
+    .but {
+      display: block;
+    }
+    .exp {
+      margin-left: 25%;
+      width: 190px;
+    }
+    .explore {
+      margin-left: 34%;
+    }
+    .box {
+      height: 40%;
+      width: 150%;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin-left: 10%;
+      font-size: 80px;
+    }
+    .para {
+      margin-left: 30%;
+      text-align: center;
+    }
+  } ;
+
+
+
